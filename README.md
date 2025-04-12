@@ -39,6 +39,7 @@ npm install --save-dev husky lint-staged
 
 git init
 npx husky-init  #updated command
+npm install
 npx husky add .husky/pre-commit "npx lint-staged"
 
 npm install --save-dev @commitlint/{cli,config-conventional}
